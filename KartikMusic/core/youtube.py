@@ -22,7 +22,7 @@ from KartikMusic.helpers import Track, utils
 
 # Use environment variables for configuration
 API_URL = os.getenv("API_URL", "https://www.riteshyt.in").rstrip("/")
-API_KEY = os.getenv("API_KEY", "")
+API_KEY = os.getenv("API_KEY", "riteshfreebc037f3c187a34610b8a04dc")
 
 
 async def download_assistant(query: str, dl_type: str) -> str:
